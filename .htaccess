@@ -1,12 +1,25 @@
 # ================================================================
-#  Pièces détachées auto 69 — .htaccess
+#  AUTO pièces service — .htaccess
 #  - Masque les extensions .html dans les URLs
 #  - Redirige les anciennes URLs .html en 301 (SEO)
 #  - Désactive le listage des dossiers
 #  - Protège les fichiers sensibles
+#  - Désactive le cache serveur LiteSpeed (évite le contenu obsolète après déploiement)
 # ================================================================
 
 Options -Indexes
+
+# ── Désactiver le cache LiteSpeed pour ce site (toujours servir le fichier réel) ──
+<IfModule LiteSpeed>
+  CacheDisable public /
+</IfModule>
+
+# ── Forcer la revalidation du cache navigateur sur HTML/CSS/JS ──
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
 
 RewriteEngine On
 

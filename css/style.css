@@ -12,6 +12,9 @@
   --primary-dark:  #9FBF48;
   --primary-light: rgba(191, 219, 109, 0.18);
   --on-primary:    #1A2B12;
+  --accent:        #FEB91F;
+  --accent-dark:   #D99A0E;
+  --on-accent:     #2B1B00;
   --dark:          #0F172A;
   --dark-2:        #1E293B;
   --gray:          #64748B;
@@ -135,6 +138,17 @@ input, select, textarea, button { font-family: inherit; }
   border-color: var(--dark);
 }
 .btn--dark:hover { background: var(--primary); color: var(--on-primary); border-color: var(--primary); }
+
+.btn--accent {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+.btn--accent:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  box-shadow: 0 6px 16px rgba(254, 185, 31, 0.4);
+}
 
 .btn--full { width: 100%; justify-content: center; }
 
@@ -276,15 +290,15 @@ input, select, textarea, button { font-family: inherit; }
 .nav__link.active::after { transform: scaleX(1); }
 
 .nav__cta {
-  background: var(--primary) !important;
-  color: var(--on-primary) !important;
+  background: var(--accent) !important;
+  color: var(--on-accent) !important;
   margin-left: 8px;
   padding: 10px 20px;
   border-radius: var(--radius-pill);
 }
 .nav__cta::after { display: none; }
-.nav__cta:hover { background: var(--primary-dark) !important; }
-.nav__cta.active { background: var(--primary-dark) !important; }
+.nav__cta:hover { background: var(--accent-dark) !important; }
+.nav__cta.active { background: var(--accent-dark) !important; }
 
 /* Burger */
 .burger {
@@ -329,7 +343,7 @@ input, select, textarea, button { font-family: inherit; }
 .hero__bg-logo {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/logo.svg');
+  background-image: url('../assets/logo-new.png');
   background-repeat: no-repeat;
   background-position: right 8% center;
   background-size: 38% auto;
