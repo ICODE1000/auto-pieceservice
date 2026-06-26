@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <!-- Badge -->
+  <rect x="4" y="4" width="232" height="232" rx="28" fill="#0F172A"/>
+
+  <!-- Car silhouette -->
+  <g transform="translate(34,52)">
+    <path d="M8 70
+             C4 70 0 66 0 60
+             L0 48
+             C0 44 2 41 6 39
+             L22 32
+             L38 14
+             C42 9 48 6 55 6
+             L120 6
+             C128 6 135 10 139 17
+             L150 36
+             L166 40
+             C170 41 172 44 172 48
+             L172 60
+             C172 66 168 70 164 70
+             Z"
+          fill="#F1F5F9"/>
+    <circle cx="34" cy="70" r="15" fill="#0F172A"/>
+    <circle cx="34" cy="70" r="6" fill="#F1F5F9"/>
+    <circle cx="140" cy="70" r="15" fill="#0F172A"/>
+    <circle cx="140" cy="70" r="6" fill="#F1F5F9"/>
+    <path d="M40 32 L52 14 L96 14 L96 32 Z" fill="#0F172A"/>
+  </g>
+
+  <!-- Wrench accent -->
+  <g transform="translate(94,150)" fill="#EA580C">
+    <path d="M4 40
+             a14 14 0 1 1 19 -19
+             l5 -5
+             l5 5
+             l-5 5
+             l24 24
+             a6 6 0 0 1 0 8
+             a6 6 0 0 1 -8 0
+             l-24 -24
+             l-5 5
+             l-5 -5
+             l5 -5
+             a14 14 0 0 1 -11 6
+             Z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="120" y="208" text-anchor="middle"
+        font-family="'Plus Jakarta Sans', Arial, sans-serif"
+        font-weight="800" font-size="20" letter-spacing="0.5"
+        fill="#F1F5F9">AUTO PIÈCES</text>
+  <text x="120" y="228" text-anchor="middle"
+        font-family="'Plus Jakarta Sans', Arial, sans-serif"
+        font-weight="700" font-size="14" letter-spacing="2"
+        fill="#EA580C">SERVICE</text>
+</svg>

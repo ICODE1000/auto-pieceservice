@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+    <link rel="icon" href="assets/logo.svg" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact — AUTO pièces service. Demandez votre devis gratuit, appelez-nous ou envoyez un message. Centre VHU à Vendargues, Montpellier.">
+  <title>Contact — AUTO pièces service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar__inner">
+        <div class="topbar__left">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>380 Rue de la Marbrerie, 34740 Vendargues, France</span>
+        </div>
+        <div class="topbar__right">
+          <a href="mailto:infos@auto-pieceservice.fr">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            infos@auto-pieceservice.fr
+          </a>
+          <span class="topbar__sep">|</span>
+          <a href="tel:+33756811938">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.64 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.55 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.59a16 16 0 0 0 8.5 8.5l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 24 18.54z"/></svg>
+            +33 7 56 81 19 38
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="/" class="header__logo">
+          <img src="assets/logo.svg" onerror="this.style.display='none'" alt="AUTO pièces service" class="logo__img">
+          <div class="logo__info">
+            <span class="logo__name">AUTO pièces service</span>
+            <span class="logo__sub">Centre VHU Agréé</span>
+          </div>
+        </a>
+                <nav class="nav" id="nav" aria-label="Navigation principale">
+          <a href="/"    class="nav__link">Accueil</a>
+          <a href="/apropos"  class="nav__link">À Propos</a>
+          <a href="/epave"    class="nav__link">Épave</a>
+          <a href="/services" class="nav__link">Services</a>
+          <a href="/contact"  class="nav__link active">Contact</a>
+          <button class="nav__link nav__cta" data-open-modal>Demander un devis</button>
+        </nav>
+        <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE BANNER -->
+    <section class="page-banner">
+      <div class="container">
+        <div class="page-banner__inner">
+          <div class="breadcrumb">
+            <a href="/">Accueil</a>
+            <span class="breadcrumb__sep">/</span>
+            <span>Contact</span>
+          </div>
+          <h1>Nous Contacter</h1>
+          <p>Remplissez le formulaire ou contactez-nous directement. Réponse rapide garantie.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULAIRE + INFOS -->
+    <section class="section section--white" id="devis">
+      <div class="container">
+        <div class="devis__layout">
+
+          <!-- Infos de contact -->
+          <div class="devis__info">
+            <div class="section-label">Coordonnées</div>
+            <h2 class="section-title">Devis Gratuit</h2>
+            <p class="devis__desc">Remplissez le formulaire et nous vous répondrons dans les plus brefs délais. Vous recevrez automatiquement un email de confirmation.</p>
+
+            <div class="devis__contacts">
+              <a href="tel:+33756811938" class="devis__contact">
+                <div class="devis__contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.64 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.55 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.59a16 16 0 0 0 8.5 8.5l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 24 18.54z"/></svg>
+                </div>
+                <div>
+                  <div class="devis__contact-label">Téléphone</div>
+                  <div class="devis__contact-value">+33 7 56 81 19 38</div>
+                </div>
+              </a>
+              <a href="https://wa.me/33756811938?text=Bonjour%2C+je+voudrais+un+devis." target="_blank" rel="noopener" class="devis__contact">
+                <div class="devis__contact-icon devis__contact-icon--wa">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.997 0C5.373 0 0 5.373 0 11.997c0 2.117.554 4.102 1.523 5.83L.057 23.943l6.266-1.445a11.94 11.94 0 0 0 5.674 1.443c6.624 0 11.997-5.373 11.997-11.997C23.994 5.373 18.621 0 11.997 0zm0 21.94a9.938 9.938 0 0 1-5.063-1.377l-.363-.215-3.722.858.891-3.621-.237-.372A9.929 9.929 0 0 1 2.06 12c0-5.483 4.457-9.94 9.94-9.94 5.482 0 9.94 4.457 9.94 9.94 0 5.482-4.458 9.94-9.943 9.94z"/></svg>
+                </div>
+                <div>
+                  <div class="devis__contact-label">WhatsApp</div>
+                  <div class="devis__contact-value">+33 7 56 81 19 38</div>
+                </div>
+              </a>
+              <a href="mailto:infos@auto-pieceservice.fr" class="devis__contact">
+                <div class="devis__contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="devis__contact-label">Email</div>
+                  <div class="devis__contact-value">infos@auto-pieceservice.fr</div>
+                </div>
+              </a>
+              <div class="devis__contact">
+                <div class="devis__contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="devis__contact-label">Adresse</div>
+                  <div class="devis__contact-value">150 Av. Viviani, 34740 Vendargues</div>
+                </div>
+              </div>
+              <div class="devis__contact">
+                <div class="devis__contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <div class="devis__contact-label">Horaires</div>
+                  <div class="devis__contact-value" style="font-size:13px;line-height:1.6">Lun–Jeu : 09h–19h<br>Ven : 09h–12h30 / 14h30–19h</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulaire -->
+          <div class="form-card">
+            <form id="devisForm" novalidate>
+
+              <!-- Honeypot anti-spam -->
+              <div style="display:none" aria-hidden="true">
+                <input type="text" name="website" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="nom">Nom complet <span>*</span></label>
+                  <input type="text" id="nom" name="nom" class="form-input" placeholder="Jean Dupont" required autocomplete="name">
+                  <span class="form-error" id="error-nom">Veuillez saisir votre nom.</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Email <span>*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="jean@exemple.fr" required autocomplete="email">
+                  <span class="form-error" id="error-email">Veuillez saisir un email valide.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="telephone">Téléphone <span>*</span></label>
+                  <input type="tel" id="telephone" name="telephone" class="form-input" placeholder="06 00 00 00 00" required autocomplete="tel">
+                  <span class="form-error" id="error-telephone">Veuillez saisir votre numéro.</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="service">Service demandé <span>*</span></label>
+                  <select id="service" name="service" class="form-select" required>
+                    <option value="">— Choisissez un service —</option>
+                    <option value="Achat d'épave">Achat d'épave</option>
+                    <option value="Vente de pièces">Vente de pièces</option>
+                    <option value="Vente de voiture">Vente de voiture</option>
+                    <option value="Carte grise">Carte grise</option>
+                    <option value="Dépannage">Dépannage</option>
+                    <option value="Destruction automobile">Destruction automobile</option>
+                    <option value="Autre">Autre</option>
+                  </select>
+                  <span class="form-error" id="error-service">Veuillez choisir un service.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="vehicule">Marque &amp; Modèle du véhicule</label>
+                  <input type="text" id="vehicule" name="vehicule" class="form-input" placeholder="ex : Renault Clio">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="annee">Année du véhicule</label>
+                  <input type="number" id="annee" name="annee" class="form-input" placeholder="ex : 2015" min="1960" max="2026">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Description de votre demande <span>*</span></label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Décrivez votre véhicule, son état, ou votre besoin en détail..." required></textarea>
+                <span class="form-error" id="error-message">Veuillez décrire votre demande.</span>
+              </div>
+
+              <button type="submit" class="form-submit" id="submitBtn">
+                <span class="btn-text">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  Envoyer ma demande de devis
+                </span>
+                <span class="btn-loader" aria-hidden="true">
+                  <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+                  Envoi en cours...
+                </span>
+              </button>
+
+              <div class="form-message" id="formMessage" role="alert"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__col--brand">
+          <img src="assets/logo.svg" onerror="this.style.display='none'" alt="" class="footer__logo-img">
+          <div style="color:#fff;font-size:15px;font-weight:700;margin-bottom:8px">AUTO pièces service</div>
+          <p>Votre expert automobile à Vendargues — centre VHU agréé proposant des solutions pour tous vos besoins automobiles.</p>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="/"    class="footer__link">Accueil</a></li>
+            <li><a href="/apropos"  class="footer__link">À Propos</a></li>
+            <li><a href="/epave"    class="footer__link">Épave</a></li>
+            <li><a href="/services" class="footer__link">Services</a></li>
+            <li><a href="/contact"  class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Services</div>
+          <ul class="footer__links">
+            <li><a href="/services" class="footer__link">Achat d'épaves</a></li>
+            <li><a href="/services" class="footer__link">Vente de pièces</a></li>
+            <li><a href="/services" class="footer__link">Vente de voitures</a></li>
+            <li><a href="/services" class="footer__link">Carte grise</a></li>
+            <li><a href="/services" class="footer__link">Dépannage</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Contact</div>
+          <div class="footer__contacts">
+            <div class="footer__contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              380 Rue de la Marbrerie<br>34740 Vendargues
+            </div>
+            <a href="tel:+33756811938" class="footer__contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.64 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.55 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.59a16 16 0 0 0 8.5 8.5l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 24 18.54z"/></svg>
+              +33 7 56 81 19 38
+            </a>
+            <a href="mailto:infos@auto-pieceservice.fr" class="footer__contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              infos@auto-pieceservice.fr
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 AUTO pièces service. Tous droits réservés.</span>
+        <span>Centre VHU Agréé · 34740 Vendargues</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/33756811938?text=Bonjour%2C+je+voudrais+un+devis." class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.997 0C5.373 0 0 5.373 0 11.997c0 2.117.554 4.102 1.523 5.83L.057 23.943l6.266-1.445a11.94 11.94 0 0 0 5.674 1.443c6.624 0 11.997-5.373 11.997-11.997C23.994 5.373 18.621 0 11.997 0zm0 21.94a9.938 9.938 0 0 1-5.063-1.377l-.363-.215-3.722.858.891-3.621-.237-.372A9.929 9.929 0 0 1 2.06 12c0-5.483 4.457-9.94 9.94-9.94 5.482 0 9.94 4.457 9.94 9.94 0 5.482-4.458 9.94-9.943 9.94z"/></svg>
+  </a>
+
+    <!-- MODAL DEVIS -->
+  <div class="modal-overlay" id="devisModal" role="dialog" aria-modal="true" aria-label="Demander un devis">
+    <div class="modal">
+      <button class="modal__close" id="closeModal" aria-label="Fermer la fenêtre">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="section-label">Devis gratuit</div>
+      <h2 class="modal__title">Demander un devis</h2>
+      <p class="modal__sub">Remplissez ce formulaire, nous vous répondons dans les plus brefs délais.</p>
+      <form id="modalDevisForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="m-nom">Nom <span>*</span></label>
+            <input type="text" id="m-nom" name="nom" class="form-input" placeholder="Votre nom" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="m-tel">Téléphone <span>*</span></label>
+            <input type="tel" id="m-tel" name="telephone" class="form-input" placeholder="+33 6 00 00 00 00" required autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="m-email">Email <span>*</span></label>
+          <input type="email" id="m-email" name="email" class="form-input" placeholder="votre@email.fr" required autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="m-service">Service souhaité <span>*</span></label>
+          <select id="m-service" name="service" class="form-select" required>
+            <option value="">— Choisir un service —</option>
+            <option value="Achat d'épaves">Achat d'épaves</option>
+            <option value="Vente de pièces">Vente de pièces</option>
+            <option value="Vente de voitures">Vente de voitures</option>
+            <option value="Carte grise">Carte grise</option>
+            <option value="Dépannage">Dépannage</option>
+            <option value="Destruction automobile">Destruction automobile</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="m-message">Message <span>*</span></label>
+          <textarea id="m-message" name="message" class="form-textarea" placeholder="Décrivez votre demande…" rows="3" required style="min-height:90px"></textarea>
+        </div>
+        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+        <button type="submit" class="form-submit" id="modalSubmitBtn">
+          <span class="btn-text">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Envoyer ma demande
+          </span>
+          <span class="btn-loader" style="display:none">
+            <svg class="spinner" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+            Envoi en cours…
+          </span>
+        </button>
+        <div id="modalFormMsg" class="form-message"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.DS_Store
+__MACOSX/
+*.zip
+piece auto/
+default.php
+.claude/
+*.tmp
